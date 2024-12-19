@@ -1,0 +1,20 @@
+a.pf-v5-c-button.pf-m-link.pf-m-inline {
+    display: none;
+}
+
+body.kcBodyClass {
+    background: none;
+}
+
+:root {
+    --pf-v5-global--primary-color--100: #0d76f1;
+    --pf-v5-global--primary-color--200: #1d60af;
+    --pf-v5-global--BackgroundColor--dark-300: #032244;
+    --pf-v5-global--BackgroundColor--dark-100: #032244;
+}
+
+.pf-v5-c-masthead__brand {
+    width: 150px;
+    content: url("../../public/assets/logo.png");
+}
+
