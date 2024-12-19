@@ -15,6 +15,6 @@ body.kcBodyClass {
 
 .pf-v5-c-masthead__brand {
     width: 150px;
-    content: url("../../public/assets/logo.png");
+    content: url("../assets/logo.png");
 }
 
