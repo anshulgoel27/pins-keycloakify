@@ -238,3 +238,11 @@
     --pf-global--target-size--MinWidth: 44px;
     --pf-global--target-size--MinHeight: 44px;
 }
+
+
+@import url(./assets/fonts/noto-sans/noto-sans.css);
+@import url(./assets/fonts/chakra-petch/chakra-petch.css);
+
+body {
+    font-family: "Noto Sans", "Chakra Petch", serif;
+}
