@@ -7,27 +7,31 @@ import "./main.css";
 const KcAccountUi = lazy(() => import("./KcAccountUi"));
 
 export default function KcPage(props: { kcContext: KcContext }) {
-    const { kcContext } = props;
+  const { kcContext } = props;
 
-    return <KcAccountUiLoader kcContext={kcContext} KcAccountUi={KcAccountUi} content={
-        [
-            {
-                "label": "personalInfo",
-                "path": ""
-              },
-              {
-                "label": "accountSecurity",
-                "children": [
-                  {
-                    "label": "signingIn",
-                    "path": "account-security/signing-in"
-                  },
-                  {
-                    "label": "deviceActivity",
-                    "path": "account-security/device-activity"
-                  },
-                ]
-              },
+  return <KcAccountUiLoader kcContext={kcContext} KcAccountUi={KcAccountUi} content={
+    [
+      {
+        "label": "personalInfo",
+        "path": ""
+      },
+      {
+        "label": "accountSecurity",
+        "children": [
+          {
+            "label": "signingIn",
+            "path": "account-security/signing-in"
+          },
+          {
+            "label": "deviceActivity",
+            "path": "account-security/device-activity"
+          },
         ]
-    } />;
+      },
+      {
+        "label": "applications",
+        "path": "applications"
+      },
+    ]
+  } />;
 }
